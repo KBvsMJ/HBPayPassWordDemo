@@ -4,7 +4,8 @@
 1-> 支持cocoapods拉取库 使用: pod 'HBPayPassWordView'
 
    
-```  #设置下面这些相关属性可以实现对应的需求
+```  
+      #设置下面这些相关属性可以实现对应的需求
 
     ///支付密码长度位数默认为6位
     var inputPwdNumber: Int = 6
