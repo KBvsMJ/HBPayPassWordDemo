@@ -1,6 +1,6 @@
-1-> 支付密码输入框，支持明文密文输入
 
-2-> 支持cocoapods拉取库 使用: pod 'HBPayPassWordView'
+
+1-> 支持cocoapods拉取库 使用: pod 'HBPayPassWordView'
     #设置下面这些相关属性可以实现对应的需求
 ```
     ///支付密码长度位数默认为6位
@@ -16,7 +16,7 @@
     var inputPwdIsClipherText: Bool = true
 ```
 
-3-> 支持block回调实时获取输入的支付密码
+2-> 支持block回调实时获取输入的支付密码
  ```
   payPwdView.payPassWordHandler = { [weak self] passwd in
             print("passWord = \(passwd)")
@@ -26,7 +26,7 @@
         }
   ```
 
-4-> 效果图：
+3-> 效果图：
 
 
 
