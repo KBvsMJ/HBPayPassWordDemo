@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   #spec.description  = <<-DESC
    #                DESC
 
-  spec.homepage     = "https://github.com/KBvsMJ/HBPayPassWordDemo"
+  spec.homepage     = "https://github.com/KBvsMJ/HBPayPassWordDem.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/KBvsMJ/HBPayPassWordDemo", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/KBvsMJ/HBPayPassWordDemo.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-   spec.framework  = "'Foundation', 'UIKit'"
+   #spec.framework  = "'Foundation', 'UIKit'"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
