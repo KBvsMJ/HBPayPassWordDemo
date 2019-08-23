@@ -3,4 +3,4 @@
 ##支持cocoapods拉取库 使用: pod 'HBPayPassWordView'
 
 #效果图：
-![Image]()
+![Image](demogif/1.gif)
