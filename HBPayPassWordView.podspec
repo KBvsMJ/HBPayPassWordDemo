@@ -17,17 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.name         = "HBPayPassWordView"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of HBPayPassWordView."
+  spec.summary      = "支付密码输入框"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  #spec.description  = <<-DESC
+   #                DESC
 
-  spec.homepage     = "http://EXAMPLE/HBPayPassWordView"
+  spec.homepage     = "https://github.com/KBvsMJ/HBPayPassWordDemo"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "hivebox_tianjun" => "2455063164@qq.com" }
+  spec.author             = { "KBvsMJ" => "2455063164@qq.com" }
   # Or just: spec.author    = "hivebox_tianjun"
   # spec.authors            = { "hivebox_tianjun" => "2455063164@qq.com" }
   # spec.social_media_url   = "https://twitter.com/hivebox_tianjun"
