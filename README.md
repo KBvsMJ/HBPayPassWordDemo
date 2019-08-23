@@ -1,4 +1,5 @@
 
+#类似于微信支付宝密码输入框，支持动态设置支付密码位数，默认是6位支付密码
 
 1-> 支持cocoapods拉取库 使用: pod 'HBPayPassWordView'
 
