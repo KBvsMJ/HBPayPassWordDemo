@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00014DE7324A735B625B9C26 /* Pods_HBPayPassWordDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C0DC0EFC2DD50EA129A401 /* Pods_HBPayPassWordDemoUITests.framework */; };
+		0EA7BEC6230F80B000785EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7BEC5230F80B000785EFA /* AppDelegate.swift */; };
+		0EA7BEC8230F80B000785EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7BEC7230F80B000785EFA /* ViewController.swift */; };
+		0EA7BECB230F80B000785EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7BEC9230F80B000785EFA /* Main.storyboard */; };
+		0EA7BECD230F80B200785EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7BECC230F80B200785EFA /* Assets.xcassets */; };
+		0EA7BED0230F80B200785EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7BECE230F80B200785EFA /* LaunchScreen.storyboard */; };
+		0EA7BEDB230F80B200785EFA /* HBPayPassWordDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7BEDA230F80B200785EFA /* HBPayPassWordDemoUITests.swift */; };
+		0EA7BEE7230F80F700785EFA /* HBInputPayPassWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7BEE6230F80F700785EFA /* HBInputPayPassWordView.swift */; };
+		7E1DBAF30AD86CFF6C1C7924 /* Pods_HBPayPassWordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1973FD52822499AE3E0C6C /* Pods_HBPayPassWordDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EA7BED7230F80B200785EFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA7BEBA230F80B000785EFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA7BEC1230F80B000785EFA;
+			remoteInfo = HBPayPassWordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA7BEC2230F80B000785EFA /* HBPayPassWordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBPayPassWordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA7BEC5230F80B000785EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EA7BEC7230F80B000785EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EA7BECA230F80B000785EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EA7BECC230F80B200785EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EA7BECF230F80B200785EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EA7BED1230F80B200785EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA7BED6230F80B200785EFA /* HBPayPassWordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBPayPassWordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA7BEDA230F80B200785EFA /* HBPayPassWordDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBPayPassWordDemoUITests.swift; sourceTree = "<group>"; };
+		0EA7BEDC230F80B200785EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA7BEE6230F80F700785EFA /* HBInputPayPassWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBInputPayPassWordView.swift; sourceTree = "<group>"; };
+		62C0DC0EFC2DD50EA129A401 /* Pods_HBPayPassWordDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBPayPassWordDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D83DF9C2E9DF5D6C78E67C /* Pods-HBPayPassWordDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBPayPassWordDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-HBPayPassWordDemoUITests/Pods-HBPayPassWordDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		874AAC21F969B0581B7C397B /* Pods-HBPayPassWordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBPayPassWordDemo.debug.xcconfig"; path = "Target Support Files/Pods-HBPayPassWordDemo/Pods-HBPayPassWordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1973FD52822499AE3E0C6C /* Pods_HBPayPassWordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBPayPassWordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF33C8D70394B6C9C1454980 /* Pods-HBPayPassWordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBPayPassWordDemo.release.xcconfig"; path = "Target Support Files/Pods-HBPayPassWordDemo/Pods-HBPayPassWordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D6D9A6ED649BDC77F134DCF9 /* Pods-HBPayPassWordDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBPayPassWordDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-HBPayPassWordDemoUITests/Pods-HBPayPassWordDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA7BEBF230F80B000785EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1DBAF30AD86CFF6C1C7924 /* Pods_HBPayPassWordDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA7BED3230F80B200785EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00014DE7324A735B625B9C26 /* Pods_HBPayPassWordDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA7BEB9230F80B000785EFA = {
+			isa = PBXGroup;
+			children = (
+				0EA7BEC4230F80B000785EFA /* HBPayPassWordDemo */,
+				0EA7BED9230F80B200785EFA /* HBPayPassWordDemoUITests */,
+				0EA7BEC3230F80B000785EFA /* Products */,
+				2A86FE5A2E894668BB6D311D /* Pods */,
+				3D80A2274BE77F783E230675 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EA7BEC3230F80B000785EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7BEC2230F80B000785EFA /* HBPayPassWordDemo.app */,
+				0EA7BED6230F80B200785EFA /* HBPayPassWordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA7BEC4230F80B000785EFA /* HBPayPassWordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7BEE5230F80D200785EFA /* HBPayPassWordView */,
+				0EA7BEC5230F80B000785EFA /* AppDelegate.swift */,
+				0EA7BEC7230F80B000785EFA /* ViewController.swift */,
+				0EA7BEC9230F80B000785EFA /* Main.storyboard */,
+				0EA7BECC230F80B200785EFA /* Assets.xcassets */,
+				0EA7BECE230F80B200785EFA /* LaunchScreen.storyboard */,
+				0EA7BED1230F80B200785EFA /* Info.plist */,
+			);
+			path = HBPayPassWordDemo;
+			sourceTree = "<group>";
+		};
+		0EA7BED9230F80B200785EFA /* HBPayPassWordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7BEDA230F80B200785EFA /* HBPayPassWordDemoUITests.swift */,
+				0EA7BEDC230F80B200785EFA /* Info.plist */,
+			);
+			path = HBPayPassWordDemoUITests;
+			sourceTree = "<group>";
+		};
+		0EA7BEE5230F80D200785EFA /* HBPayPassWordView */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7BEE6230F80F700785EFA /* HBInputPayPassWordView.swift */,
+			);
+			path = HBPayPassWordView;
+			sourceTree = "<group>";
+		};
+		2A86FE5A2E894668BB6D311D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				874AAC21F969B0581B7C397B /* Pods-HBPayPassWordDemo.debug.xcconfig */,
+				CF33C8D70394B6C9C1454980 /* Pods-HBPayPassWordDemo.release.xcconfig */,
+				82D83DF9C2E9DF5D6C78E67C /* Pods-HBPayPassWordDemoUITests.debug.xcconfig */,
+				D6D9A6ED649BDC77F134DCF9 /* Pods-HBPayPassWordDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D80A2274BE77F783E230675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E1973FD52822499AE3E0C6C /* Pods_HBPayPassWordDemo.framework */,
+				62C0DC0EFC2DD50EA129A401 /* Pods_HBPayPassWordDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EA7BEC1230F80B000785EFA /* HBPayPassWordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA7BEDF230F80B200785EFA /* Build configuration list for PBXNativeTarget "HBPayPassWordDemo" */;
+			buildPhases = (
+				2725908A18941E389DED21AA /* [CP] Check Pods Manifest.lock */,
+				0EA7BEBE230F80B000785EFA /* Sources */,
+				0EA7BEBF230F80B000785EFA /* Frameworks */,
+				0EA7BEC0230F80B000785EFA /* Resources */,
+				0EABD231C218D5C647E8E24E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBPayPassWordDemo;
+			productName = HBPayPassWordDemo;
+			productReference = 0EA7BEC2230F80B000785EFA /* HBPayPassWordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EA7BED5230F80B200785EFA /* HBPayPassWordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA7BEE2230F80B200785EFA /* Build configuration list for PBXNativeTarget "HBPayPassWordDemoUITests" */;
+			buildPhases = (
+				65A470EBC7E66F0C69908A44 /* [CP] Check Pods Manifest.lock */,
+				0EA7BED2230F80B200785EFA /* Sources */,
+				0EA7BED3230F80B200785EFA /* Frameworks */,
+				0EA7BED4230F80B200785EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA7BED8230F80B200785EFA /* PBXTargetDependency */,
+			);
+			name = HBPayPassWordDemoUITests;
+			productName = HBPayPassWordDemoUITests;
+			productReference = 0EA7BED6230F80B200785EFA /* HBPayPassWordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EA7BEBA230F80B000785EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.fxbox.www;
+				TargetAttributes = {
+					0EA7BEC1230F80B000785EFA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0EA7BED5230F80B200785EFA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0EA7BEC1230F80B000785EFA;
+					};
+				};
+			};
+			buildConfigurationList = 0EA7BEBD230F80B000785EFA /* Build configuration list for PBXProject "HBPayPassWordDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EA7BEB9230F80B000785EFA;
+			productRefGroup = 0EA7BEC3230F80B000785EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EA7BEC1230F80B000785EFA /* HBPayPassWordDemo */,
+				0EA7BED5230F80B200785EFA /* HBPayPassWordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EA7BEC0230F80B000785EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA7BED0230F80B200785EFA /* LaunchScreen.storyboard in Resources */,
+				0EA7BECD230F80B200785EFA /* Assets.xcassets in Resources */,
+				0EA7BECB230F80B000785EFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA7BED4230F80B200785EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EABD231C218D5C647E8E24E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBPayPassWordDemo/Pods-HBPayPassWordDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBPayPassWordDemo/Pods-HBPayPassWordDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBPayPassWordDemo/Pods-HBPayPassWordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2725908A18941E389DED21AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBPayPassWordDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A470EBC7E66F0C69908A44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBPayPassWordDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA7BEBE230F80B000785EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA7BEE7230F80F700785EFA /* HBInputPayPassWordView.swift in Sources */,
+				0EA7BEC8230F80B000785EFA /* ViewController.swift in Sources */,
+				0EA7BEC6230F80B000785EFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA7BED2230F80B200785EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA7BEDB230F80B200785EFA /* HBPayPassWordDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EA7BED8230F80B200785EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA7BEC1230F80B000785EFA /* HBPayPassWordDemo */;
+			targetProxy = 0EA7BED7230F80B200785EFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EA7BEC9230F80B000785EFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA7BECA230F80B000785EFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EA7BECE230F80B200785EFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EA7BECF230F80B200785EFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EA7BEDD230F80B200785EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EA7BEDE230F80B200785EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EA7BEE0230F80B200785EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874AAC21F969B0581B7C397B /* Pods-HBPayPassWordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HBPayPassWordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxbox.www.HBPayPassWordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EA7BEE1230F80B200785EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF33C8D70394B6C9C1454980 /* Pods-HBPayPassWordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HBPayPassWordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxbox.www.HBPayPassWordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EA7BEE3230F80B200785EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D83DF9C2E9DF5D6C78E67C /* Pods-HBPayPassWordDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBPayPassWordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxbox.www.HBPayPassWordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HBPayPassWordDemo;
+			};
+			name = Debug;
+		};
+		0EA7BEE4230F80B200785EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D9A6ED649BDC77F134DCF9 /* Pods-HBPayPassWordDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBPayPassWordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxbox.www.HBPayPassWordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HBPayPassWordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA7BEBD230F80B000785EFA /* Build configuration list for PBXProject "HBPayPassWordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA7BEDD230F80B200785EFA /* Debug */,
+				0EA7BEDE230F80B200785EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA7BEDF230F80B200785EFA /* Build configuration list for PBXNativeTarget "HBPayPassWordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA7BEE0230F80B200785EFA /* Debug */,
+				0EA7BEE1230F80B200785EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA7BEE2230F80B200785EFA /* Build configuration list for PBXNativeTarget "HBPayPassWordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA7BEE3230F80B200785EFA /* Debug */,
+				0EA7BEE4230F80B200785EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EA7BEBA230F80B000785EFA /* Project object */;
+}
